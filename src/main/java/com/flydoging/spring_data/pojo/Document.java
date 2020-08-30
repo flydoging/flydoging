@@ -12,6 +12,7 @@ public class Document {
     @Id
     private Long id;
     private String content;
+    private int seq;
     private Long createBy;
     private Long createTime;
     private Long updateBy;
